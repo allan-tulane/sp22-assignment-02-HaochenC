@@ -66,7 +66,7 @@ def _quadratic_multiply(x, y):
         _quadratic_multiply(x_right, y_left), n // 2).decimal_val
     result3 = _quadratic_multiply(x_right, y_right).decimal_val
     return BinaryNumber(result1 + result2 + result3)
-  
+
 
 ## Feel free to add your own tests here.
 def test_multiply():
